@@ -1,0 +1,47 @@
+.mainContent {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+}
+
+.Content {
+    border: 1px solid rgb(97, 97, 97);
+    padding: 32px;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    border-radius: 10px;
+
+}
+
+.loginInput {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.15;
+    border: none;
+    flex-grow: 1;
+    width: 90%;
+    border-radius: 10px;
+    padding: 0 30px 0 0;
+}
+
+button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.15;
+    height: 48px;
+    align-items: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: top .3s ease-in-out;
+    background-color: #333333;
+    color: white;
+
+}

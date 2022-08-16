@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(236, 233, 178);
+}
+
+.mainNav {
+    background-color: #333333;
+}
+
+.rightNav {
+    width: 80px;
+    float: right !important;
+    margin-right: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(236, 233, 178);
+    color: #333333;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+
+
+.imgLogo {
+    width: 80px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.welcome {
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.title {
+    padding-top: 30px;
+    width: 50rem;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.productsPic {
+    width: 500px;
+    margin: 2rem;
+}
+
+.productsPic:hover {
+    filter: brightness(70%);
+    transition: filter 0.2s;
+}
